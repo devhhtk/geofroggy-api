@@ -27,7 +27,7 @@ app.get('/api/health', (c) => {
 app.route('/api/auth', auth)
 app.route('/api/country', country)
 
-app.get('api/test', (c) => {
+app.get('/api/test', (c) => {
   return c.json({
     message: 'Welcome to GeoFroggy API (Vanilla JS)!',
     status: 'online',
