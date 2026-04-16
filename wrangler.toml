@@ -1,0 +1,8 @@
+name = "geo-froggy-backend"
+main = "src/index.js"
+compatibility_date = "2024-04-01"
+
+[vars]
+# API_URL = "http://localhost:8787"
+SUPABASE_URL = "https://iihrelczduigsynzpplc.supabase.co"
+
