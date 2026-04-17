@@ -13,7 +13,7 @@ country.get('/', async (c) => {
 
         const { data, error } = await supabase
             .from('countries')
-            .select('id, name')
+            .select('*')
 
         if (error) {
             console.error(error)
